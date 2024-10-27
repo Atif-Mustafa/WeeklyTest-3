@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+    <div class="main-container">
+
+        <div class="left-container">
+            <h1>Products</h1>
+
+            <div class="productList-container">
+                <div class="productItem">
+                  <span>Product-1</span>
+                  <span>100</span>
+                  <div class="quantityUpdate">
+                    <button id="decreaseQuantity">-</button>
+                    <span id = "quantity">2</span>
+                    <button id="increaseQuantity">+</button>
+                   </div>
+                </div>
+                <div class="productItem">
+                    <span>Product-2</span>
+                    <span>200</span>
+                    <div class="quantityUpdate">
+                      <button id="decreaseQuantity">-</button>
+                      <span id = "quantity">3</span>
+                      <button id="increaseQuantity">+</button>
+                     </div>
+                </div>
+                <div class="productItem">
+                    <span>Product-3</span>
+                    <span>300</span>
+                    <div class="quantityUpdate">
+                      <button id="decreaseQuantity">-</button>
+                      <span id = "quantity">0</span>
+                      <button id="increaseQuantity">+</button>
+                     </div>
+                </div>    
+            </div>
+        </div>
+
+        <div class="right-container">
+            <h1>Cart</h1>
+            <p class="emptyCart" id="emptyCart">No Product added to the cart</p>
+            <div class="cartList-container">
+                <div id = "productAdded">
+                </div>
+                <div class="total">
+                    <span>Total:</span>
+                    <span id = "totalPrice"></span>
+                </div>
+        </div>
+            
+        </div>
+    </div>
+
+
+</main>
+    <script src="script.js"></script>
+</body>
+</html>
